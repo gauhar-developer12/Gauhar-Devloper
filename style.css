@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(whiteback.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Navigation styles */
+
+.header .navigation{
+    width: 70%;
+    height: 60px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    margin: auto;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.header .navigation h1{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: rgb(26, 212, 203);
+}
+
+.header .navigation ul{
+    display: flex;
+    margin-left: 150px;
+}
+
+.header .navigation ul li{
+    margin-left: 50px;
+    list-style: none;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.header .navigation ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.header .navigation ul li a:hover{
+    color: rgb(25, 218, 208);
+}
+
+.header .navigation #contact_btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0, 255, 242);
+    color: black;
+    font-family: Arial;
+    font-size: 18px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.header .navigation #contact_btn:hover{
+    background-color: rgb(59, 231, 231);
+}
+
+.header .header_contents{
+    width: 98%;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .header_contents .content{
+    width: 800px;
+    height: 450px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header .header_contents .content .web{
+    color: rgb(43, 212, 212);
+}
+
+.header .header_contents .content h1{
+    margin-left: 40px;
+    font-family: Arial;
+     font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.header .header_contents .content p{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.header .header_contents .content #hire_me{
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+    font-size: 18px;
+    font-family: Arial;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.header .header_contents .profile{
+    width: 400px;
+    height: 400px;
+    border: 13px solid rgb(10, 247, 255);
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.header .header_contents .profile img{
+    width: 350px;
+    height: auto;
+    margin-top: -65px;
+    margin-left: 25px;
+}
+
+.education_details{
+    width: 98%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(education_details.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#education{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+.education_details table{
+    border-collapse: collapse;
+    width: 80%;
+    height: 400px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0), -4px -4px 10px rgb(0, 0, 0);
+}
+
+.education_details table:hover{
+    box-shadow: 8px 8px 10px rgb(3, 3, 3), -8px -8px 10px rgb(0, 0, 0);
+}
+
+.education_details table tr, th, td{
+    border: 3px solid black;
+}
+
+.education_details table th{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.skill{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.skills{
+     width: 98%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(skills.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.skillsbox{
+    width: 370px;
+    height: 350px;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: rgb(150, 150, 150);
+    box-shadow: 4px 4px 10px white, -4px -4px 10px white;
+}
+
+.skillsbox:hover{
+    box-shadow: 8px 8px 10px white, -8px -8px 10px white;
+}
+
+.skillsbox h1{
+font-size: 30px;
+font-family: sans-serif;
+text-align: center;
+margin-top: 15px;
+color: aqua;
+}
+
+.skillsbox .h3{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.skillsbox .h3 h3{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.skillsbox .Skills_btn{
+    width: 130px;
+    height: 45px;
+    background-color: aqua;
+    color: black;
+    font-family: sans-serif;
+    font-size: 21px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.Skills_btn:hover{
+    background-color: rgb(0, 255, 200);
+    color: rgb(0, 0, 0);
+
+}
+
+.contact_section{
+    width: 98%;
+    height: 650px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+.contact_section .contact_header{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.contact_section .c_data{
+    width: 80%;
+    height: 550px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.contact_section .c_data .sections{
+    width: 450px;
+    height: 500px;
+}
+
+.contact_section .c_data #form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact_section .c_data #form form input{
+    width: 350px;
+    height:50px;
+    border-radius: 6px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    padding-left: 10px;
+}
+
+.contact_section .c_data #form form #message{
+    height: 250px;
+}
+
+
+.contact_section .c_data #form form button{
+    width: 350px;
+    height: 50px;
+    border: none;
+    background-color: rgb(0, 247, 255);
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.contact_section #contactdata{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact_section #contactdata img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.contact_section #contactdata .city, .phone{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+.contact_section #contactdata .email{
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.contact_section #contactdata .email, .phone, .city p{
+    padding-top: 4px;
+}
+
+.contact_section #contactdata .line{
+    width: 410px;
+    height: 3px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.contact_section #contactdata .social_icons{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact_section #contactdata .social_icons img{
+    background: transparent;
+}
+
+.contact_section #contactdata .social_icons .icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(44, 43, 43);
+}
+
+.contact_section #contactdata .social_icons img{
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.contact_section #contactdata .line, .social_icons{
+    margin-top: 50px;
+}
+
+.contact_section #contactdata .copyright{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
